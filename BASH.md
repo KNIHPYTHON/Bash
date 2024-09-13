@@ -10,6 +10,10 @@
 
 
 
+
+[REFERENCES]
+1. https://velog.io/@pikamon/Linux-3 (WSL의 설치)
+
 ```
 public class BootSpringBootApplication {
   public static void main(String[] args) {
