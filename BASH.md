@@ -15,9 +15,9 @@
   echo "Hello, $name!"
   ```
 
-## 4. Input and Output:
-- Read user input using `read`: `read variable_name`.
-- Output to the console using `echo`: `echo "Hello, World!"`.
+## 3. 입/출력 :
+- 변수에 입력을 받는 방법: `read variable_name`.
+- 변수를 출력하는 방법 `echo`: `echo "Hello, World!"`.
 - Example:
   ```bash
   echo "Enter your name:"
