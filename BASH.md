@@ -1,17 +1,17 @@
 # Bash
 # Bash 스크립트 가이드
 
-## 2. Setting up a Bash script:
+## 1. BASH 스크립트의 설정:
 - sh로 확장자로 끝나게 설정  `.sh`  (e.g., `script.sh`).
 - 스크립트 맨 윗 부분은 `#!/bin/bash`로 표기 -> 어떤 언어가 해당 파일을 실행 시킬지 결정
 - chmod +x script.sh로 실행 파일로 변경(또는 bash script.sh 로 실행)
 
-## 3. 변수설정:
-- Assign values to variables: `variable_name=value`.
-- Use variables in scripts: `$variable_name`.
-- Example:
+## 2. 변수설정 : 
+- 변수 설정 방법: `variable_name=value`.
+- 변수 사용 방법: `$variable_name`.
+- 예시:
   ```bash
-  name="John"
+  name="KNIH"
   echo "Hello, $name!"
   ```
 
