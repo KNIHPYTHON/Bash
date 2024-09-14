@@ -18,14 +18,14 @@
 ## 3. 입/출력 :
 - 변수에 입력을 받는 방법: `read variable_name`.
 - 변수를 출력하는 방법 `echo`: `echo "Hello, World!"`.
-- Example:
+- 예시:
   ```bash
   echo "Enter your name:"
   read name
   echo "Hello, $name!"
   ```
 
-## 5. Conditional Statements:
+## 5. 조건문: 조건이 있는 경우
 - Use `if`, `elif` (optional), and `else` to perform conditional execution.
 - Syntax:
   ```bash
@@ -37,9 +37,9 @@
       # commands to execute if all conditions are false
   fi
   ```
-- Comparison operators: `==`, `!=`, `-eq`, `-ne`, `-lt`, `-gt`, `-le`, `-ge`, etc.
-- Logical operators: `-a` (AND), `-o` (OR), `!` (NOT).
-- Example:
+- 비교문: `==`, `!=`, `-eq`, `-ne`, `-lt`, `-gt`, `-le`, `-ge`, etc.
+- 논리문: `-a` (AND), `-o` (OR), `!` (NOT).
+- 예시:
   ```bash
   echo "Enter a number:"
   read num
@@ -51,7 +51,7 @@
       echo "Number is negative."
   fi
   ```
-## 6. Switch Case:
+## 6. Switch Case: 분기문 (IF 는 조건에 따라 움직이는데 비해, Switch 는 사용자가 프로그램 실행 중 지정)
 
 - Syntax
   ```bash
