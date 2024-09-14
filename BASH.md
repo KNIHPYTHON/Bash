@@ -73,8 +73,8 @@
     esac
   ```
   
- - The `$number` represents the value that will be checked against different cases.
- - Each `1)`,`2)` represents a specific value that you want to match against the variable.
+ - The `$number` 해당 변수에 1이 들어오면 1번 아래를 로딩, 2가 들어오면 2 아래를 로딩.
+ - Each `1)`,`2)` e.
  - The ;; is used to separate each case and indicate the end of the actions for that case.
  - The *) is used to define the default case, which will be executed when none of the specified cases match the value of the variable.
 
