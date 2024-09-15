@@ -106,7 +106,7 @@
 
 ## 7. 함수: 함수는 수학에서 함수를 만들듯 일정하게 반복되는 일을 함수로 만들어 두고, 해당 함수에 데이터를 넣으면 처리될 수 있게 하는 구조 입니다
 - 함수 설정 방법 `function_name() { commands; }`.
-- Call a function by its name: `function_name`.
+- 함수 이름 설정정: `function_name`.
 - Example:
   ```bash
   greet() {
@@ -117,13 +117,13 @@
   ```
 
 ## 8. Command Line Arguments:
-- Access command-line arguments using `$1`, `$2`, `$3`, etc. (for first, second, third argument, and so on).
+- 스크립트 제작 후 스크립트에 특정 파일 또는 명령을 지정해야할때 사용 합니다 using `$1`, `$2`, `$3`, etc. (for first, second, third argument, and so on).
 - Example:
   ```bash
   echo "Script name: $0"
   echo "First argument: $1"
   echo "Second argument: $2"
-
+  ```
 
 ## 9. File Operations:
 - File existence check: `-e`, `-f`, `-d`, `-s`, `-r`, `-w`, `-x`,
