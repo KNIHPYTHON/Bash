@@ -51,6 +51,58 @@
   fi
   ```
 
+## 6. Switch Case:
+
+- Syntax
+  ```bash
+    echo "Enter a number:"
+    read number
+    case $number in
+      1)
+          echo "You entered number one."
+          ;;
+      2)
+          echo "You entered number two."
+          ;;
+      3)
+          echo "You entered number three."
+          ;;
+      *)
+          echo "You entered an invalid number."
+          ;;
+    esac
+  ```
+  
+ - The `$number` represents the value that will be checked against different cases.
+ - Each `1)`,`2)` represents a specific value that you want to match against the variable.
+ - The ;; is used to separate each case and indicate the end of the actions for that case.
+ - The *) is used to define the default case, which will be executed when none of the specified cases match the value of the variable.
+
+
+## 6. 루푸문(순환구조문):
+- `for` loop:
+  ```bash
+  for item in list; do
+      # commands to execute
+  done
+  ```
+- `while` loop:
+  ```bash
+  while condition; do
+      # commands to execute
+  done
+  ```
+- `until` loop:
+  ```bash
+  until condition; do
+      # commands to execute
+  done
+  ```
+- Example:
+  ```bash
+  for i in 1 2 3; do
+      echo $i
+  done
 
 
 
