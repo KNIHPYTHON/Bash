@@ -6,7 +6,7 @@
 > 시간이 되는데로 추가 예정 입니다.
 >
 >
-[Bash Script 기초]
+#[Bash Script 기초]
 
 ## 1. BASH 스크립트의 설정:
 - sh로 확장자로 끝나게 설정  `.sh`  (e.g., `script.sh`).
