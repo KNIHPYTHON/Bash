@@ -179,7 +179,9 @@
 
 
 # Bash Script 문제
+
 [기초]
+
 (1) ExampleData_Genetics\Fasta 폴더 내 PDE6B_PCR.fasta 를 cat으로 열어보세요
 
 (2) 상기 연 파일의 전체 줄수를 구하세요
@@ -225,6 +227,7 @@ example.sh 를 제작 후 bash example.sh 로 했을시 "Hello, World!" 가 나�
 (17) 사용자에게 변수를 입력받어 "Hello, [이름]!"이라고 출력하는 스크립트를 작성하세요
 
 (18) PDE6B_PCR.fasta 파일의 줄수를 맨 왼쪽에 표기하세요
+
 [awk 사용]
 1 >ABCD
 2 ATGCGGCCCCCGGCCCCCCCCC..
@@ -249,6 +252,6 @@ example.sh 를 제작 후 bash example.sh 로 했을시 "Hello, World!" 가 나�
 6. (Bash 기초) https://github.com/Gian77/Bash-For-Bioinformatics
 7. (Bioinformatics_Bash) https://github.com/alexpiper/utility
 8. https://ewels.github.io/AWS-iGenomes/
-9. 
+
 
 
