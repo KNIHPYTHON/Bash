@@ -197,7 +197,7 @@
 (8) PDE6B_PCR.fa.gz 를 PDE6B_PCR.fasta.gz 로 변경해보세요
 
 (9) ExampleData_Genetics\Fasta 내부 파일 리스트 및 용량을 filelist.txt 로 저장해보세요
-형식예시 
+[형식예시]
 -rwxrwxrwx 1 hy hy   15 Mar  9  2024 USH2A_PCR.fasta.fai
 -rwxrwxrwx 1 hy hy   15 Mar  9  2024 USH2A_PCR.fasta.fai
 -rwxrwxrwx 1 hy hy   15 Mar  9  2024 USH2A_PCR.fasta.fai
@@ -205,37 +205,29 @@
 
 (10) 저장된 filelist.txt 에서 fai 문자열을 포함한 줄만 출력해보세요
 
-(11)
+(11) 폴더내 fasta로 끝나는 파일만 찾어 fasta.txt 로 저장합니다
+[형식예시]
+파일명.fasta
+파일명.fasta
 
-
+(12) 저장된 fasta.txt 내부에 있는 파일을 cat으로 전부 열어보세요
 
 [응용]
 
-(1) 간단한 스크립트를 작성하여 "Hello, World!"를 출력하세요.
+(13) 상기 fasta.txt 파일 내부에 있는 파일 리스트를 for 문을 이용하여 출력하세요
 
-(2) 사용자에게 이름을 입력받고 "Hello, [이름]!"이라고 출력하는 스크립트를 작성하세요.
+(14) 제작된 for 문 중 파일리스트 출력이 성공 하였으면, 각 파일의 줄수를 출력해보세요
 
+(16) 간단한 스크립트를 작성하여 "Hello, World!"를 출력하세요.
+[예시] 
+example.sh 를 제작 후 bash example.sh 로 했을시 "Hello, World!" 가 나오면 성공
 
+(17) 사용자에게 변수를 입력받어 "Hello, [이름]!"이라고 출력하는 스크립트를 작성하세요
 
+(18) 
 
+[유전체 분석]
 
-[유전체]
-
-- [중급] Bash 
-
-
-
-
-
-- [고급] Bash Script 의 작성 및 실행
-
-
-
-
-
-
-
--
 
 
 
@@ -247,12 +239,5 @@
 2. (매개변수) https://madnix.tistory.com/entry/%EC%95%84%EA%B7%9C%EB%A8%BC%ED%8A%B8argument-%EC%99%80-%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0parameter-%EC%9D%98-%EC%B0%A8%EC%9D%B4
 3. (리눅스 기초) https://github.com/zzsza/TIL/blob/master/Linux/1%EC%9E%A5.%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%89%98%EA%B3%BC-%EB%AA%85%EB%A0%B9%EC%96%B4-%EA%B8%B0%EC%B4%88.md
 4. (Bash Script) https://github.com/bobbyiliev/introduction-to-bash-scripting?tab=readme-ov-file
-5. 
 
-```
-public class BootSpringBootApplication {
-  public static void main(String[] args) {
-    System.out.println("Hello, Honeymon");
-  }
-}
-```
+
