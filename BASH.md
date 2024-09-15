@@ -252,6 +252,8 @@ example.sh 를 제작 후 bash example.sh 로 했을시 "Hello, World!" 가 나�
 6. (Bash 기초) https://github.com/Gian77/Bash-For-Bioinformatics
 7. (Bioinformatics_Bash) https://github.com/alexpiper/utility
 8. https://ewels.github.io/AWS-iGenomes/
+9. https://pcingola.github.io/SnpEff/
+10. https://www.ncbi.nlm.nih.gov/snp/
 
 
 
