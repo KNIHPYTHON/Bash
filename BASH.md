@@ -7,7 +7,7 @@
 >
 >
 # Bash Script 복습
-## [기초] Linux(Bash)기초 명령어 활용
+[기초] Linux(Bash)기초 명령어 활용
 
 ## 1. BASH 스크립트의 설정:
 - sh로 확장자로 끝나게 설정  `.sh`  (e.g., `script.sh`).
