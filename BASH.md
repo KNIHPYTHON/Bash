@@ -192,9 +192,22 @@
 
 (6) 만들어진 PDE6B_PCR.fa.gz 를 zcat 으로 열어보세요
 
-(7) 상기 PDE6B_PCR.fa.gz 파일의 전체 줄수를 구해보고 PDE6B_PCR.fasta 와 같은지 비교해보세요 (파일 비교 기초)
+(7) 상기 PDE6B_PCR.fa.gz 파일의 전체 줄수를 구해보고 PDE6B_PCR.fasta 와 줄수가 같은지 비교해보세요 (파일 비교 기초)
 
-(8) [
+(8) PDE6B_PCR.fa.gz 를 PDE6B_PCR.fasta.gz 로 변경해보세요
+
+(9) ExampleData_Genetics\Fasta 내부 파일 리스트 및 용량을 filelist.txt 로 저장해보세요
+형식예시 
+-rwxrwxrwx 1 hy hy   15 Mar  9  2024 USH2A_PCR.fasta.fai
+-rwxrwxrwx 1 hy hy   15 Mar  9  2024 USH2A_PCR.fasta.fai
+-rwxrwxrwx 1 hy hy   15 Mar  9  2024 USH2A_PCR.fasta.fai
+-rwxrwxrwx 1 hy hy   15 Mar  9  2024 USH2A_PCR.fasta.fai
+
+(10) 저장된 filelist.txt 에서 fai 문자열을 포함한 줄만 출력해보세요
+
+(11)
+
+
 
 [응용]
 
