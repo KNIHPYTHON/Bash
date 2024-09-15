@@ -25,7 +25,7 @@
   echo "Hello, $name!"
   ```
 
-## 5. 조건문: 조건이 있는 경우
+## 4. 조건문: 조건이 있는 경우
 - Use `if`, `elif` (optional), and `else` to perform conditional execution.
 - Syntax:
   ```bash
