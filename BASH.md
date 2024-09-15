@@ -160,7 +160,7 @@
   ls
   ```
 
-## 12. 조건문에 기반한 명령어 실행:
+## 10. 조건문에 기반한 명령어 실행:
 - 
 - Example:
   ```bash
@@ -178,7 +178,7 @@
 
 
 
-# Bash Script 복습
+# Bash Script 문제
 
 
 (1) 기본 커맨드
@@ -210,8 +210,9 @@
 
 
 [REFERENCES]
-1. https://velog.io/@pikamon/Linux-3 (WSL의 설치)
-2. https://madnix.tistory.com/entry/%EC%95%84%EA%B7%9C%EB%A8%BC%ED%8A%B8argument-%EC%99%80-%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0parameter-%EC%9D%98-%EC%B0%A8%EC%9D%B4
+1. (WSL의 설치) https://velog.io/@pikamon/Linux-3 
+2. (매개변수) https://madnix.tistory.com/entry/%EC%95%84%EA%B7%9C%EB%A8%BC%ED%8A%B8argument-%EC%99%80-%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0parameter-%EC%9D%98-%EC%B0%A8%EC%9D%B4
+3. (리눅스 기초) https://github.com/zzsza/TIL/blob/master/Linux/1%EC%9E%A5.%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%89%98%EA%B3%BC-%EB%AA%85%EB%A0%B9%EC%96%B4-%EA%B8%B0%EC%B4%88.md
 
 ```
 public class BootSpringBootApplication {
