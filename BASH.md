@@ -179,13 +179,24 @@
 
 
 # Bash Script 문제
+[기초]
 (1) ExampleData_Genetics\Fasta 폴더 내 PDE6B_PCR.fasta 를 cat으로 열어보세요
 
 (2) 상기 연 파일의 전체 줄수를 구하세요
 
 (3) "GGAGACGGTGTG" 가 속한 줄을 구하세요
 
-(4) 
+(4) PDE6B_PCR.fasta 를 PDE6B_PCR.fa 로 한개 더 만드세요
+
+(5) PDE6B_PCR.fa 를 gzip 으로 압축하세요
+
+(6) 만들어진 PDE6B_PCR.fa.gz 를 zcat 으로 열어보세요
+
+(7) 상기 PDE6B_PCR.fa.gz 파일의 전체 줄수를 구해보고 PDE6B_PCR.fasta 와 같은지 비교해보세요 (파일 비교 기초)
+
+(8) [
+
+[응용]
 
 (1) 간단한 스크립트를 작성하여 "Hello, World!"를 출력하세요.
 
@@ -195,6 +206,7 @@
 
 
 
+[유전체]
 
 - [중급] Bash 
 
