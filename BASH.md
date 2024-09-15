@@ -25,16 +25,16 @@
   ```
 
 ## 4. 조건문: 조건이 있는 경우
-- Use `if`, `elif` (optional), and `else` to perform conditional execution.
-- Syntax:
+- 사용법 `if`, `elif` (else if), and `else` 는 또 다른 조건에 따른 실행.
+- 사용구문:
   ```bash
   if condition1; then
       # commands to execute if condition1 is true
-  elif c리:
-- File existence check: `-e`, `-f`, `-d`, `-s`, `-r`, `-w`, `-x`,
-
- etc.
-- File manipulation commands: `cp`, `mv`, `mkdir`, `rm`, `cat`, `ls`, etc.
+  elif condition2:
+- 파일 처리 관련: `-e`, `-f`, `-d`, `-s`, `-r`, `-w`, `-x`, 등등.
+  
+- 파일 조작 관련: `cp`, `mv`, `mkdir`, `rm`, `cat`, `ls`, 등등.
+ 
 - Example:
   ```bash
   # Copy a file
