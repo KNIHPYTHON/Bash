@@ -239,5 +239,8 @@ example.sh 를 제작 후 bash example.sh 로 했을시 "Hello, World!" 가 나�
 2. (매개변수) https://madnix.tistory.com/entry/%EC%95%84%EA%B7%9C%EB%A8%BC%ED%8A%B8argument-%EC%99%80-%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0parameter-%EC%9D%98-%EC%B0%A8%EC%9D%B4
 3. (리눅스 기초) https://github.com/zzsza/TIL/blob/master/Linux/1%EC%9E%A5.%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%89%98%EA%B3%BC-%EB%AA%85%EB%A0%B9%EC%96%B4-%EA%B8%B0%EC%B4%88.md
 4. (Bash Script) https://github.com/bobbyiliev/introduction-to-bash-scripting?tab=readme-ov-file
+5. (Bash Script) https://www.hostinger.com/tutorials/bash-script-example
+6. (Bash 기초) https://github.com/Gian77/Bash-For-Bioinformatics
+7. (Bioinformatics_Bash) https://github.com/alexpiper/utility
 
 
