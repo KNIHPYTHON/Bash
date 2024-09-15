@@ -181,6 +181,12 @@
 # Bash Script 문제
 (1) ExampleData_Genetics\Fasta 폴더 내 PDE6B_PCR.fasta 를 cat으로 열어보세요
 
+(2) 상기 연 파일의 전체 줄수를 구하세요
+
+(3) "GGAGACGGTGTG" 가 속한 줄을 구하세요
+
+(4) 
+
 (1) 간단한 스크립트를 작성하여 "Hello, World!"를 출력하세요.
 
 (2) 사용자에게 이름을 입력받고 "Hello, [이름]!"이라고 출력하는 스크립트를 작성하세요.
