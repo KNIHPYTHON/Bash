@@ -73,10 +73,10 @@
     esac
   ```
   
- - The `$number` represents the value that will be checked against different cases.
- - Each `1)`,`2)` represents a specific value that you want to match against the variable.
- - The ;; is used to separate each case and indicate the end of the actions for that case.
- - The *) is used to define the default case, which will be executed when none of the specified cases match the value of the variable.
+ - The `$number` 해당 변수에 케이스에 따른 변수가 지정.
+ - Each `1)`,`2)` 1,2,3,*(1,2,3 이외) 숫자가 변수에 지정될수 있음.
+ - ;; 는 케이스별 문법(구문) 종료.
+ - *) 는 Default 값으로 지정 된 문자가 없는 경우 지정 .
 
 
 ## 6. 루푸문(순환구조문):
