@@ -27,10 +27,31 @@
 ## 4. 조건문: 조건이 있는 경우
 - 사용법 `if`, `elif` (else if), and `else` 는 또 다른 조건에 따른 실행.
 - 사용구문:
-  ```bash
+ ```bash
   if condition1; then
       # commands to execute if condition1 is true
-  elif condition2:
+  elif condition2; then
+      # commands to execute if condition2 is true
+  else
+      # commands to execute if all conditions are false
+  fi
+  ```
+- 비교문자: `==`, `!=`, `-eq`, `-ne`, `-lt`, `-gt`, `-le`, `-ge`, etc.
+- 논리문자: `-a` (AND), `-o` (OR), `!` (NOT).
+- 예시:
+ ```bash
+  echo "Enter a number:"
+  read num
+  if [ $num -eq 0 ]; then
+      echo "Number is zero."
+  elif [ $num -gt 0 ]; then
+      echo "Number is positive."
+  else
+      echo "Number is negative."
+  fi
+  ```
+
+  
 - 파일 처리 관련: `-e`, `-f`, `-d`, `-s`, `-r`, `-w`, `-x`, 등등.
   
 - 파일 조작 관련: `cp`, `mv`, `mkdir`, `rm`, `cat`, `ls`, 등등.
