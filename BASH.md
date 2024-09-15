@@ -180,7 +180,7 @@
 
 # Bash Script 문제
 
-[기초]
+## [기초]
 
 (1) ExampleData_Genetics\Fasta 폴더 내 PDE6B_PCR.fasta 를 cat으로 열어보세요
 
@@ -214,7 +214,7 @@
 
 (12) 저장된 fasta.txt 내부에 있는 파일을 cat으로 전부 열어보세요
 
-[응용]
+## [응용]
 
 (13) 상기 fasta.txt 파일 내부에 있는 파일 리스트를 for 문을 이용하여 출력하세요
 
@@ -234,7 +234,7 @@ example.sh 를 제작 후 bash example.sh 로 했을시 "Hello, World!" 가 나�
 3 CCCCGGCCCCCGGCCCCCGGCC..
 
 
-[유전체 분석(고급)]
+## [유전체 분석(고급)]
 
 (19) ExampleData_Genetics\Fastq 폴더 내 read1.fq.gz / read2.fq.gz 를 grch38 chr21.fa 를 다운 받어 bwa 로 mapping 후 haplotypecaller 로 gvcf 제작후 genotypeGVCFs 로 vcf 를 제작 하세요
 래퍼런스는 https://ewels.github.io/AWS-iGenomes/ 사이트에서 입수하거나 기타 아는곳에서 입수하시면 됩니다.
