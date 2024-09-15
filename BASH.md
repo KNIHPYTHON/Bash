@@ -116,7 +116,7 @@
   greet "KNIH"
   ```
 
-## 8. Command Line Arguments:
+## 8. 인수:
 - 스크립트 제작 후 스크립트에 특정 파일 또는 명령을 지정해야할때 사용 합니다 using `$1`, `$2`, `$3`, etc. (for first, second, third argument, and so on).
 - Example:
   ```bash
@@ -125,66 +125,34 @@
   echo "Second argument: $2"
   ```
 
-## 9. File Operations:
+## 9. 파일 존재 여부 :
 - File existence check: `-e`, `-f`, `-d`, `-s`, `-r`, `-w`, `-x`,
 
  etc.
-- File manipulation commands: `cp`, `mv`, `mkdir`, `rm`, `cat`, `ls`, etc.
+- 파일 조작 명령어 : `cp`, `mv`, `mkdir`, `rm`, `cat`, `ls`, etc.
 - Example:
   ```bash
-  # Copy a file
+  # 파일 카피
   cp source_file destination_directory
 
-  # Move a file
+  # 파일 이름 변경 또는 위치 변경(잘라내서 붙여 넣기)
   mv old_file new_location
 
-  # Create a directory
+  # 디렉토리 생성
   mkdir directory_name
 
-  # Remove a file or directory
+  # 파일 또는 디렉토리 삭제
   rm file_or_directory
 
-  # Display the contents of a file
+  # 파일 내부 보기 / 열기등등
   cat file_name
 
   # List files and directories
   ls
   ```
 
-
-## 10. Performing System Commands:
-- System commands such as `shutdown`, `sleep`, `ps`, `grep`, etc., can be executed in a Bash script.
-- Example:
-  ```bash
-  # Shutdown the system
-  shutdown -h now
-
-  # Pause the script execution for a specific duration
-  sleep 5
-
-  # List running processes
-  ps aux
-
-  # Search for a pattern in a file
-  grep "pattern" file_name
-  ```
-
-## 11. Command Aliasing:
-- Create aliases for frequently used commands using the `alias` command.
-- Example:
-  ```bash
-  # Create an alias for the ls command
-  alias ll='ls -alF'
-
-  # Create an alias for the grep command
-  alias cgrep='grep --color=auto'
-
-  # Create an alias for a custom command
-  alias mycommand='command_to_execute'
-  ```
-
-## 12. Performing Linux Commands on CLI Arguments Based on Conditions:
-- Use conditional statements and command-line arguments to execute different commands based on conditions.
+## 12. 조건문에 기반한 명령어 실행:
+- 
 - Example:
   ```bash
   # Check if the first argument is "copy" and perform the copy operation
