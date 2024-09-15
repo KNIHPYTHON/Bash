@@ -231,11 +231,12 @@ example.sh 를 제작 후 bash example.sh 로 했을시 "Hello, World!" 가 나�
 3 CCCCGGCCCCCGGCCCCCGGCC..
 
 
-[유전체 분석]
+[유전체 분석(고급)]
 
+(19) ExampleData_Genetics\Fastq 폴더 내 read1.fq.gz / read2.fq.gz 를 grch38 chr21.fa 를 다운 받어 bwa 로 mapping 후 haplotypecaller 로 gvcf 제작후 genotypeGVCFs 로 vcf 를 제작 하세요
+래퍼런스는 https://ewels.github.io/AWS-iGenomes/ 사이트에서 입수하거나 기타 아는곳에서 입수하시면 됩니다.
 
-
-
+(20) 상기 제작된 vcf 를 기반으로 rsid annotation 을 수행하세요
 
 
 
@@ -247,5 +248,7 @@ example.sh 를 제작 후 bash example.sh 로 했을시 "Hello, World!" 가 나�
 5. (Bash Script) https://www.hostinger.com/tutorials/bash-script-example
 6. (Bash 기초) https://github.com/Gian77/Bash-For-Bioinformatics
 7. (Bioinformatics_Bash) https://github.com/alexpiper/utility
+8. https://ewels.github.io/AWS-iGenomes/
+9. 
 
 
