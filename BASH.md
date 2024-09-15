@@ -51,7 +51,7 @@
   fi
   ```
 
-## 6. 스위치 구문:
+## 5. 스위치 구문:
 
 - Syntax
   ```bash
@@ -79,7 +79,7 @@
  - *) 는 Default 값으로 지정 된 문자가 없는 경우 지정 .
 
 
-## 6. 루푸문(순환구조문):
+## 6. 루프문(순환구조문): For -> Do -> Down, While -> Do -> done
 - `for` loop:
   ```bash
   for item in list; do
