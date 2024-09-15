@@ -104,8 +104,8 @@
       echo $i
   done
 
-## 7. Functions:
-- Define a function using `function_name() { commands; }`.
+## 7. 함수: 함수는 수학에서 함수를 만들듯 일정하게 반복되는 일을 함수로 만들어 두고, 해당 함수에 데이터를 넣으면 처리될 수 있게 하는 구조 입니다
+- 함수 설정 방법 `function_name() { commands; }`.
 - Call a function by its name: `function_name`.
 - Example:
   ```bash
@@ -113,7 +113,7 @@
       echo "Hello, $1!"
   }
 
-  greet "John"
+  greet "KNIH"
   ```
 
 ## 8. Command Line Arguments:
@@ -239,6 +239,7 @@
 
 [REFERENCES]
 1. https://velog.io/@pikamon/Linux-3 (WSL의 설치)
+2. https://madnix.tistory.com/entry/%EC%95%84%EA%B7%9C%EB%A8%BC%ED%8A%B8argument-%EC%99%80-%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0parameter-%EC%9D%98-%EC%B0%A8%EC%9D%B4
 
 ```
 public class BootSpringBootApplication {
